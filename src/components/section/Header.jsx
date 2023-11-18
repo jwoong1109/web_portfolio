@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import { CiBaseball } from "react-icons/ci";
 import { CiCoins1 } from "react-icons/ci";
@@ -8,9 +8,10 @@ import { CiDumbbell } from "react-icons/ci";
 import { CiMoneyBill } from "react-icons/ci";
 
 import { AiFillGithub } from "react-icons/ai";
-import { AiOutlineCodepen } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
+
+import Clock from "../Clock";
 
 const Header = () => {
     return (
@@ -90,6 +91,8 @@ const Header = () => {
                 </ul>
             </nav>
             
+            <Clock/>
+
             <div className='header__sns'>
                 <ul>
                     <li>
