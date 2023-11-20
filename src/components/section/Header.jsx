@@ -96,18 +96,18 @@ const Header = () => {
             <div className='header__sns'>
                 <ul>
                     <li>
-                        <a href='https://github.com/webstoryboy' rel='noopener noreferrer'>
+                        <a href='https://github.com/jwoong1109' rel='noopener noreferrer'>
                             <AiFillGithub />jwoong1109
                         </a>
                     </li>
                     <li>
-                        <a href='https://www.youtube.com/webstoryboy' rel='noopener noreferrer'>
+                        <a href='https://www.youtube.com/jwoong1109' rel='noopener noreferrer'>
                             <AiFillYoutube />
                         </a>
                     </li>
                 
                     <li>
-                        <a href='https://www.instagram.com/webstoryboy' rel='noopener noreferrer'>
+                        <a href='https://www.instagram.com/iam_jin.woong' rel='noopener noreferrer'>
                             <AiOutlineInstagram /> iam_jin.woong
                         </a>
                     </li>
