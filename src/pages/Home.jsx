@@ -2,6 +2,7 @@ import React from 'react';
 import Main from '../components/section/Main';
 import MyImage from '../components/MyImage';
 import styled from 'styled-components';
+import Resume from '../components/Resume';
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
     >
        <CenteredContent>
                 <MyImage />
+                <Resume />
         </CenteredContent>
     </Main>
   )

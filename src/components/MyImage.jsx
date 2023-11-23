@@ -2,6 +2,8 @@ import React from 'react';
 import MyImage from '../assets/img/jinwoong.png';
 import { AiFillGithub, AiFillYoutube, AiOutlineInstagram } from "react-icons/ai";
 import styled from 'styled-components';
+import data from '../data/data';
+import Tech from './Tech';
 
 const StyledComponent = styled.div`
   display: flex;
@@ -17,7 +19,7 @@ const SocialIcons = styled.ul`
 
 const SocialIconItem = styled.li`
   margin-top:10px;
-  margin-left: 3.5rem;
+  margin-left: 3.15rem;
   flex-grow: 1; /* 아이콘 간격을 동일하게 설정 */
 `;
 
@@ -29,10 +31,15 @@ const Image = () => {
   return (
     <StyledComponent>
       <div>
-        <h2>안녕하세요</h2>
-        <h1>프론트엔드 개발자 이진웅입니다.</h1>
+        <h1>{data.comment}<br/>
+          {data.name}입니다.</h1>
         <img src={MyImage} alt="MyImage" />
         <div>
+          <div>
+            <Tech>
+              
+            </Tech>
+          </div>
           <SocialIcons>
             <SocialIconItem>
               <SocialIconLink href='https://github.com/jwoong1109' rel='noopener noreferrer'>
